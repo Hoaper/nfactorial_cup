@@ -1,9 +1,9 @@
 # nFactorial-Ai-Cup-2024
 Fork this repository and build nFactorial Ai Cup 2024 projects 
 
-## < Your Name >
+## Turbulyak Maxim
 
-## < Your App's Name >
+## AI StoryTeller
 
 ## < Your App's description, technical considerations, etc. >
 
