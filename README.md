@@ -5,7 +5,7 @@ Fork this repository and build nFactorial Ai Cup 2024 projects
 
 ## AI StoryTeller
 
-## < Your App's description, technical considerations, etc. >
+## Procedural story generation using AI
 
 
 ## Typeform to submit:
