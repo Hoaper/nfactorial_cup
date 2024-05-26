@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Bad_Script } from "next/font/google";
+import {Poppins} from "next/font/google";
 import "./global.css";
 import React from "react";
 
-const font = Bad_Script({weight: "400", subsets: ["latin"]});
+const font = Poppins({weight: "100", subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "AI Story Teller",

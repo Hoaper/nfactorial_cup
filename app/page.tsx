@@ -69,7 +69,7 @@ export default function Home() {
                             </div>
                         ) : (
                             <div className="flex flex-col">
-                                <h1 className={"uppercase font-bold"}>Начало вашей истории</h1>
+                                <h3 className={"uppercase font-bold"}>Начало вашей истории</h3>
                                 <textarea
                                     className={"border-2 mx-2 p-1 resize-none"}
                                     value={startOfStory} onChange={(e) => setStartOfStory(e.target.value)}
@@ -79,8 +79,7 @@ export default function Home() {
                                 <br/>
 
                                 <div className={"flex flex-col"}>
-                                    <h1 className={"uppercase font-bold"}>Выберите жанры в которых хотите увидеть свою
-                                        историю</h1>
+                                    <h3 className={"uppercase font-bold"}>Выберите жанры своей чудесной истории ✨</h3>
                                     {genres.map(genre => (
                                         <div
                                             key={genre}

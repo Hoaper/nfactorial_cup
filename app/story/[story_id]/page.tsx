@@ -50,9 +50,10 @@ export default function Page({params}: {params: {story_id: string}}) {
                     <ul>
                         {messages.length > 0 && messages.map((message: any) => {
                             if (message.role === "assistant")
-                                return <li key={message.id}>{message.content[0]?.text?.value}
-
-                            </li>
+                                return <>
+                                <li key={message.id}>{message.content[0]?.text?.value}</li>
+                                    <br />
+                                </>
                         })}
                         <div ref={messagesEndRef} />
                     </ul>
@@ -68,7 +69,7 @@ export default function Page({params}: {params: {story_id: string}}) {
                                 }
                             }}
                         />
-                        <button onClick={handleSend}>Send</button>
+                        <button onClick={handleSend}>Отправить</button>
                     </div>
                     : <div>Загрузка...</div>}
                 </div>
